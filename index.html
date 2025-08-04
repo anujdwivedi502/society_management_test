@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Apartments - Dwarka, New Delhi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>Naveen Apartments</h2>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">HOME</a></li>
+                        <li><a href="#about" class="nav-link">ABOUT US</a></li>
+                        <li><a href="#committee" class="nav-link">MANAGING COMMITTEE</a></li>
+                        <li><a href="#amenities" class="nav-link">AMENITIES</a></li>
+                        <li><a href="#rules" class="nav-link">DCS ACTS & RULE</a></li>
+                        <li><a href="#residents" class="nav-link">RESIDENTS CORNER</a></li>
+                        <li><a href="#contact" class="nav-link">CONTACT US</a></li>
+                        <li><a href="#emergency" class="nav-link">EMERGENCY</a></li>
+                        <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="social-icons">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                    </div>
+                    <button id="loginBtn" class="btn btn--primary">Login</button>
+                    <button class="mobile-menu-toggle" id="mobileToggle">☰</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="container">
+                        <h1>Welcome to Naveen Apartments</h1>
+                        <p>Experience modern living in Dwarka with world-class amenities and professional CGHS management.</p>
+                        <div class="hero-actions">
+                            <button class="btn btn--primary btn--lg">Explore Amenities</button>
+                            <button class="btn btn--outline btn--lg">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Quick Access Cards -->
+                <div class="quick-access">
+                    <h2>Quick Access</h2>
+                    <div class="quick-cards">
+                        <div class="card quick-card">
+                            <div class="card__body">
+                                <div class="quick-icon">💳</div>
+                                <h3>Pay Bills</h3>
+                                <p>Pay maintenance and utility bills online</p>
+                                <button class="btn btn--primary btn--sm">Pay Now</button>
+                            </div>
+                        </div>
+                        <div class="card quick-card">
+                            <div class="card__body">
+                                <div class="quick-icon">🔧</div>
+                                <h3>Maintenance Request</h3>
+                                <p>Submit maintenance and repair requests</p>
+                                <button class="btn btn--primary btn--sm">Request</button>
+                            </div>
+                        </div>
+                        <div class="card quick-card">
+                            <div class="card__body">
+                                <div class="quick-icon">📢</div>
+                                <h3>Latest Notices</h3>
+                                <p>View important announcements and updates</p>
+                                <button class="btn btn--primary btn--sm">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Latest Notices -->
+                <div class="notices-section">
+                    <h2>Latest Announcements</h2>
+                    <div class="notices-grid">
+                        <div class="card notice-card">
+                            <div class="card__body">
+                                <div class="notice-date">Aug 01, 2025</div>
+                                <h3>Monthly Maintenance Payment</h3>
+                                <p>Monthly maintenance for August 2025 is due by 10th August. Late payment charges will apply after the due date.</p>
+                            </div>
+                        </div>
+                        <div class="card notice-card">
+                            <div class="card__body">
+                                <div class="notice-date">Jul 30, 2025</div>
+                                <h3>AGM Meeting Notice</h3>
+                                <p>Annual General Meeting scheduled for 15th August 2025 at 6:00 PM in the community hall.</p>
+                            </div>
+                        </div>
+                        <div class="card notice-card">
+                            <div class="card__body">
+                                <div class="notice-date">Jul 28, 2025</div>
+                                <h3>Visitor Entry Guidelines</h3>
+                                <p>All visitors must register at the security gate and carry valid ID proof for entry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emergency Contacts Preview -->
+                <div class="emergency-preview">
+                    <h2>Emergency Contacts</h2>
+                    <div class="emergency-cards">
+                        <div class="emergency-card">
+                            <div class="emergency-icon">🏥</div>
+                            <span class="emergency-label">Medical Emergency</span>
+                            <a href="tel:102" class="emergency-number">102</a>
+                        </div>
+                        <div class="emergency-card">
+                            <div class="emergency-icon">🚨</div>
+                            <span class="emergency-label">Police</span>
+                            <a href="tel:100" class="emergency-number">100</a>
+                        </div>
+                        <div class="emergency-card">
+                            <div class="emergency-icon">🔥</div>
+                            <span class="emergency-label">Fire Department</span>
+                            <a href="tel:101" class="emergency-number">101</a>
+                        </div>
+                        <div class="emergency-card">
+                            <div class="emergency-icon">🔒</div>
+                            <span class="emergency-label">Security Office</span>
+                            <a href="tel:+911123456789" class="emergency-number">+91 11 2345 6789</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h1>About Naveen Apartments</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Our Story</h2>
+                        <p>Established in 2014, Naveen Apartments has been a beacon of modern living in Dwarka, New Delhi. Our community of 63 flats across 9 floors represents the perfect blend of contemporary architecture and comfortable living in one of Delhi's most sought-after locations.</p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>To provide a safe, secure, and comfortable living environment where residents can enjoy a high quality of life with world-class amenities and professional CGHS management services.</p>
+                        
+                        <h3>Our Vision</h3>
+                        <p>To be the most preferred residential community in Dwarka, known for our exceptional service, modern facilities, and strong community bonds.</p>
+                        
+                        <h3>Location Advantages</h3>
+                        <ul>
+                            <li>Close to BGS International School</li>
+                            <li>Adjacent to DDA parks for peaceful environment</li>
+                            <li>Near Indira Gandhi International Airport</li>
+                            <li>Well-connected to Delhi Metro</li>
+                            <li>Shopping malls and markets in proximity</li>
+                            <li>Excellent healthcare facilities nearby</li>
+                        </ul>
+                        
+                        <h3>Infrastructure Details</h3>
+                        <ul>
+                            <li>Total Flats: 63 units</li>
+                            <li>Year Established: 2014</li>
+                            <li>Building Height: G+9 floors</li>
+                            <li>Society Type: CGHS (Cooperative Group Housing Society)</li>
+                            <li>Location: Sector 5, Dwarka, New Delhi</li>
+                            <li>Park View: Facing DDA park</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">63</div>
+                            <div class="stat-label">Total Flats</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2014</div>
+                            <div class="stat-label">Established</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Security</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Amenities</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Managing Committee Section -->
+        <section id="committee" class="section">
+            <div class="container">
+                <h1>Managing Committee</h1>
+                <p class="section-subtitle">Meet our dedicated team working tirelessly to make Naveen Apartments the best place to live.</p>
+                <div class="committee-grid">
+                    <div class="card committee-card">
+                        <div class="card__body">
+                            <div class="member-avatar">👨‍💼</div>
+                            <h3>Mr. Deepak Sharma</h3>
+                            <div class="member-position">President</div>
+                            <div class="member-contact">
+                                <div>📞 +91 9810123456</div>
+                                <div>✉️ president@naveenapartments.in</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card committee-card">
+                        <div class="card__body">
+                            <div class="member-avatar">👩‍💼</div>
+                            <h3>Mrs. Sunita Gupta</h3>
+                            <div class="member-position">Secretary</div>
+                            <div class="member-contact">
+                                <div>📞 +91 9810123457</div>
+                                <div>✉️ secretary@naveenapartments.in</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card committee-card">
+                        <div class="card__body">
+                            <div class="member-avatar">👨‍💼</div>
+                            <h3>Mr. Rajesh Kumar</h3>
+                            <div class="member-position">Treasurer</div>
+                            <div class="member-contact">
+                                <div>📞 +91 9810123458</div>
+                                <div>✉️ treasurer@naveenapartments.in</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card committee-card">
+                        <div class="card__body">
+                            <div class="member-avatar">👩‍💼</div>
+                            <h3>Mrs. Meera Singh</h3>
+                            <div class="member-position">Joint Secretary</div>
+                            <div class="member-contact">
+                                <div>📞 +91 9810123459</div>
+                                <div>✉️ jointsec@naveenapartments.in</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card committee-card">
+                        <div class="card__body">
+                            <div class="member-avatar">👨‍🔧</div>
+                            <h3>Mr. Ashok Verma</h3>
+                            <div class="member-position">Maintenance In-charge</div>
+                            <div class="member-contact">
+                                <div>📞 +91 9810123460</div>
+                                <div>✉️ maintenance@naveenapartments.in</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Amenities Section -->
+        <section id="amenities" class="section">
+            <div class="container">
+                <h1>Amenities</h1>
+                <p class="section-subtitle">Discover world-class facilities designed for your comfort and convenience.</p>
+                <div class="amenities-grid">
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🏢</div>
+                            <h3>Lift Facility</h3>
+                            <p>High-speed elevators for all floors</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🔒</div>
+                            <h3>24/7 Security</h3>
+                            <p>Round the clock security with CCTV monitoring</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">📞</div>
+                            <h3>Intercom System</h3>
+                            <p>Door-to-door communication system</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">⚡</div>
+                            <h3>Power Backup</h3>
+                            <p>Generator backup for common areas and lifts</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">💧</div>
+                            <h3>Water Supply</h3>
+                            <p>24x7 water supply with overhead tanks</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🚗</div>
+                            <h3>Visitor Parking</h3>
+                            <p>Dedicated parking space for visitors</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🔧</div>
+                            <h3>Maintenance Staff</h3>
+                            <p>Full-time maintenance and housekeeping staff</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🚨</div>
+                            <h3>Fire Safety</h3>
+                            <p>Fire safety equipment and emergency exits</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">🌳</div>
+                            <h3>Park View</h3>
+                            <p>Apartments facing DDA green park</p>
+                        </div>
+                    </div>
+                    <div class="card amenity-card">
+                        <div class="card__body">
+                            <div class="amenity-icon">📹</div>
+                            <h3>CCTV Surveillance</h3>
+                            <p>Complete CCTV coverage in common areas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DCS Acts & Rules Section -->
+        <section id="rules" class="section">
+            <div class="container">
+                <h1>DCS Acts & Rules</h1>
+                <p class="section-subtitle">Important acts and rules governing our CGHS housing society.</p>
+                <div class="rules-content">
+                    <div class="rules-accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h3>Delhi Cooperative Societies Act, 2003</h3>
+                                <span class="accordion-toggle">+</span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>The Delhi Cooperative Societies Act, 2003 provides the legal framework for the formation and functioning of cooperative housing societies in Delhi and NCR region.</p>
+                                <button class="btn btn--outline btn--sm">Download PDF</button>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h3>Model Bye-Laws for Housing Societies</h3>
+                                <span class="accordion-toggle">+</span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Standard bye-laws that govern the day-to-day operations, rights, and responsibilities of members in a housing cooperative society.</p>
+                                <button class="btn btn--outline btn--sm">Download PDF</button>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h3>Maintenance Guidelines</h3>
+                                <span class="accordion-toggle">+</span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Comprehensive guidelines for maintenance charges, procedures, and obligations of both the society and its members.</p>
+                                <button class="btn btn--outline btn--sm">Download PDF</button>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h3>General Body Meeting Rules</h3>
+                                <span class="accordion-toggle">+</span>
+                            </div>
+                            <div class="accordion-content">
+                                <p>Rules and procedures for conducting Annual General Meetings (AGM) and Special General Meetings (SGM).</p>
+                                <button class="btn btn--outline btn--sm">Download PDF</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Residents Corner Section -->
+        <section id="residents" class="section">
+            <div class="container">
+                <div id="residentsLogin" class="residents-login">
+                    <div class="login-prompt">
+                        <h1>Residents Corner</h1>
+                        <p>Access exclusive content and documents available only to residents.</p>
+                        <div class="login-card card">
+                            <div class="card__body">
+                                <h3>Please Login to Continue</h3>
+                                <p>Login to access notices, meeting minutes, audit accounts, and download important forms.</p>
+                                <button id="showLoginModal" class="btn btn--primary btn--lg">Login to Access</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="residentsContent" class="residents-content hidden">
+                    <h1>Residents Corner</h1>
+                    <p class="section-subtitle">Welcome! Access all resident-exclusive content and services.</p>
+                    
+                    <div class="residents-sections">
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>📢 Notice & Circular</h3>
+                                <p>Latest notices and circulars from the management committee.</p>
+                                <div class="notices-list">
+                                    <div class="notice-item">
+                                        <strong>Monthly Maintenance Payment</strong>
+                                        <span class="notice-date">Aug 01, 2025</span>
+                                    </div>
+                                    <div class="notice-item">
+                                        <strong>AGM Meeting Notice</strong>
+                                        <span class="notice-date">Jul 30, 2025</span>
+                                    </div>
+                                    <div class="notice-item">
+                                        <strong>Visitor Entry Guidelines</strong>
+                                        <span class="notice-date">Jul 28, 2025</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>📝 Minutes of GBM</h3>
+                                <p>General Body Meeting minutes and resolutions.</p>
+                                <div class="documents-list">
+                                    <div class="document-item">
+                                        <span>AGM Minutes - Aug 2025</span>
+                                        <a class="btn btn--outline btn--sm"
+                                        href="docs/AGM_MOM_04082025.pdf"
+                                        download
+                                        target="_blank">Download</a>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>SGM Minutes - January 2025</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>💰 Audit Account</h3>
+                                <p>Annual audit reports and financial statements.</p>
+                                <div class="documents-list">
+                                    <div class="document-item">
+                                        <span>Audit Report 2024-25</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>Financial Statement 2023-24</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>📋 Membership Form</h3>
+                                <p>Download and submit membership-related forms.</p>
+                                <div class="documents-list">
+                                    <div class="document-item">
+                                        <span>CGHS Membership Form</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>Member Transfer Form</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>⚖️ Bylaws & Registration</h3>
+                                <p>Society bylaws and registration documents.</p>
+                                <div class="documents-list">
+                                    <div class="document-item">
+                                        <span>Society Bylaws</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>Registration Certificate</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card residents-section-card">
+                            <div class="card__body">
+                                <h3>📁 Download Forms</h3>
+                                <p>Various forms and applications for residents.</p>
+                                <div class="documents-list">
+                                    <div class="document-item">
+                                        <span>Maintenance Guidelines</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>Complaint Form</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                    <div class="document-item">
+                                        <span>Visitor Pass Application</span>
+                                        <button class="btn btn--outline btn--sm">Download</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="section-subtitle">Get in touch with us for any queries or assistance.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Office Address</h3>
+                                <p>Plot no 13, Navin Apartment<br>Sector 5, Dwarka<br>New Delhi, Delhi 110075</p>
+                                
+                                <h3>Contact Details</h3>
+                                <p>📞 +91 11 2345 6789<br>✉️ info@naveenapartments.in</p>
+                                
+                                <h3>Office Hours</h3>
+                                <p>Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="map-container">
+                            <div class="map-placeholder">
+                                <div class="map-content">
+                                    <h4>📍 Find Us Here</h4>
+                                    <p>Naveen Apartments<br>Sector 5, Dwarka, New Delhi</p>
+                                    <a href="https://maps.app.goo.gl/SkSpN1NdsRKSf1fdA" target="_blank" class="btn btn--outline btn--sm">Open in Maps</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Send us a Message</h3>
+                                <form class="contact-form">
+                                    <div class="form-group">
+                                        <label class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" placeholder="Enter your full name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Subject</label>
+                                        <select class="form-control" required>
+                                            <option value="">Select subject</option>
+                                            <option value="maintenance">Maintenance Issue</option>
+                                            <option value="billing">Billing Query</option>
+                                            <option value="complaint">Complaint</option>
+                                            <option value="suggestion">Suggestion</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Message</label>
+                                        <textarea class="form-control" rows="5" placeholder="Enter your message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Numbers Section -->
+        <section id="emergency" class="section">
+            <div class="container">
+                <h1>Emergency Numbers</h1>
+                <p class="section-subtitle">Important contact numbers for emergency situations in Dwarka area.</p>
+                
+                <div class="emergency-categories">
+                    <div class="emergency-category">
+                        <h2>🏥 Medical Emergency</h2>
+                        <div class="emergency-contacts">
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Venkateshwar Hospital</h3>
+                                    <p>Sector 18A, Dwarka</p>
+                                    <a href="tel:+91114277777" class="btn btn--primary btn--full-width">Call +91 11 4277 7777</a>
+                                </div>
+                            </div>
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Medeor Hospital Dwarka</h3>
+                                    <p>Sector 12, Dwarka</p>
+                                    <a href="tel:+91114840484" class="btn btn--primary btn--full-width">Call +91 11 4840 4840</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="emergency-category">
+                        <h2>🔥 Fire Emergency</h2>
+                        <div class="emergency-contacts">
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Delhi Fire Service</h3>
+                                    <p>Emergency Helpline</p>
+                                    <a href="tel:101" class="btn btn--primary btn--full-width">Call 101</a>
+                                </div>
+                            </div>
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Dwarka Fire Station</h3>
+                                    <p>Sector 9, Dwarka</p>
+                                    <a href="tel:+91112504222" class="btn btn--primary btn--full-width">Call +91 11 2504 2222</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="emergency-category">
+                        <h2>🚨 Police</h2>
+                        <div class="emergency-contacts">
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Delhi Police Emergency</h3>
+                                    <p>Emergency Helpline</p>
+                                    <a href="tel:100" class="btn btn--primary btn--full-width">Call 100</a>
+                                </div>
+                            </div>
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Dwarka Police Station</h3>
+                                    <p>Sector 3, Dwarka</p>
+                                    <a href="tel:+91112508801" class="btn btn--primary btn--full-width">Call +91 11 2508 8015</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="emergency-category">
+                        <h2>🔒 Society Management</h2>
+                        <div class="emergency-contacts">
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Security Control Room</h3>
+                                    <p>Ground Floor, Naveen Apartments</p>
+                                    <a href="tel:+911123456789" class="btn btn--primary btn--full-width">Call +91 11 2345 6789</a>
+                                </div>
+                            </div>
+                            <div class="card emergency-contact-card">
+                                <div class="card__body">
+                                    <h3>Maintenance Office</h3>
+                                    <p>Basement, Naveen Apartments</p>
+                                    <a href="tel:+919810123460" class="btn btn--primary btn--full-width">Call +91 9810123460</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Enhanced Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h1>Gallery</h1>
+                <p class="section-subtitle">Explore our beautiful facilities and community spaces with multiple images for each area.</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="security-gate">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=1" alt="Main Security Gate" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">5 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Main Security Gate</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="building-exterior">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=6" alt="Building Exterior" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">6 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Building Exterior</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="apartment-interior">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=12" alt="Apartment Interior" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">6 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Apartment Interior</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="common-area">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=18" alt="Common Areas" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">5 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Common Areas</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="park-view">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=23" alt="Park View" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">4 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Park View</div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="parking-area">
+                        <div class="gallery-card">
+                            <img src="https://picsum.photos/300/200?random=27" alt="Parking Area" class="gallery-image">
+                            <div class="gallery-overlay">
+                                <div class="image-count">4 photos</div>
+                                <div class="view-gallery-btn">View Gallery</div>
+                            </div>
+                            <div class="gallery-caption">Parking Area</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Residents Login</h3>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" placeholder="Enter username" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Enter password" id="password" required>
+                    </div>
+                    <div class="form-group">
+                        <small>Demo credentials: Username: <strong>resident</strong>, Password: <strong>naveen123</strong></small>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal gallery-modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="gallery-modal-content">
+            <div class="gallery-modal-header">
+                <h3 id="galleryModalTitle">Gallery</h3>
+                <button class="modal-close gallery-close" id="closeGalleryModal">&times;</button>
+            </div>
+            <div class="gallery-modal-body">
+                <div class="gallery-main-image">
+                    <button class="gallery-nav gallery-prev" id="galleryPrev">‹</button>
+                    <img id="galleryMainImage" src="" alt="" class="main-gallery-image">
+                    <button class="gallery-nav gallery-next" id="galleryNext">›</button>
+                    <div class="gallery-counter">
+                        <span id="galleryCounter">1 of 5</span>
+                    </div>
+                </div>
+                <div class="gallery-caption-area">
+                    <p id="galleryImageCaption">Image caption</p>
+                </div>
+                <div class="gallery-thumbnails" id="galleryThumbnails">
+                    <!-- Thumbnails will be added dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Naveen Apartments</h4>
+                    <p>Modern living community in Dwarka with world-class amenities and professional CGHS management.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📱</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 Plot no 13, Navin Apartment<br>Sector 5, Dwarka, New Delhi 110075</p>
+                    <p>📞 +91 11 2345 6789<br>✉️ info@naveenapartments.in</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Emergency</h4>
+                    <p>Medical: <a href="tel:102">102</a></p>
+                    <p>Fire: <a href="tel:101">101</a></p>
+                    <p>Police: <a href="tel:100">100</a></p>
+                    <p>Security: <a href="tel:+911123456789">+91 11 2345 6789</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Naveen Apartments, Dwarka. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
